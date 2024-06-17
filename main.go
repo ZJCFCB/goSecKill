@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	_ "goSecKill/pkg/common"
+)
 
 func main() {
+
 	fmt.Print("hil")
 }
